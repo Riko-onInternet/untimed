@@ -1,0 +1,585 @@
+@font-face {
+  font-family: 'Undertale';
+  src: url(../font/Undertale/8bitoperator-jve-undertale-dialogue-font-webfont.woff2) format('woff2'),
+    url(../font/Undertale/8bitoperator-jve-undertale-dialogue-font-webfont.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'UndertaleLogo';
+  src: url(../font/UndertaleLogo/monsterfriendfore-webfont.woff2) format('woff2'),
+    url(../font/UndertaleLogo/monsterfriendfore-webfont.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'UndertaleSans';
+  src: url(../font/UndertaleSans/pixel-comic-sans-undertale-sans-font-webfont.woff2) format('woff2'),
+    url(../font/UndertaleSans/pixel-comic-sans-undertale-sans-font-webfont.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.f-undertale {
+  font-family: 'Undertale';
+}
+
+.f-undertale-hover:hover {
+  font-family: 'Undertale';
+}
+
+.f-undertalelogo {
+  font-family: 'UndertaleLogo';
+}
+
+.f-undertalesans {
+  font-family: 'UndertaleSans';
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Page Undertale */
+.underpage {
+  padding-top: 100px;
+  margin-bottom: 20px;
+  line-height: 1;
+  text-align: center;
+  color: gray;
+  font-size: 12px;
+}
+
+.susie-end {
+  margin-bottom: -55px;
+  height: 70px;
+}
+
+.kris-end {
+  height: 70px;
+  margin-right: 20px;
+}
+
+.dog-end {
+  height: 70px;
+}
+
+/* --- @Media --- */
+
+/* Minimal */
+@media (min-width: 100px) {
+  .logo {
+    display: none;
+  }
+
+  .logo-mobile {
+    display: inline;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 13px;
+    margin-right: 5px;
+  }
+
+  .mar-nav {
+    margin: 0;
+  }
+
+  .m-flgr {
+    flex-grow: 1;
+  }
+
+  .m-jcs {
+    justify-content: start !important;
+  }
+
+  .m-mtm {
+    margin-top: 10px !important;
+  }
+
+  .card-border {
+    border: transparent;
+  }
+
+  .w-400 {
+    width: 80%;
+  }
+
+  .w-door {
+    height: 100%;
+  }
+
+  .box-enorme {
+    box-shadow: 0 100px 100px #000;
+  }
+
+  .sw-undertale {
+    width: 100%;
+  }
+
+  .top-mobile {
+    margin-top: 56px;
+  }
+
+  .mtm {
+    margin-top: 56px;
+  }
+
+}
+
+/* Mobile S */
+@media (min-width: 320px) {
+  .swgray-position {
+    top: 1300px;
+  }
+
+  .swwhite-position {
+    top: 1800px;
+  }
+
+  .swyellow-position {
+    top: 2300px;
+  }
+
+  .scheda-xs-undertale {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mb-xs-undertale {
+    margin-bottom: 2.5rem !important;
+  }
+
+  .home-btn {
+    position: inherit;
+    text-align: center;
+  }
+}
+
+/* Mobile M */
+@media (min-width: 375px) {
+  .swgray-position {
+    top: 1400px;
+  }
+
+  .swwhite-position {
+    top: 2000px;
+  }
+
+  .swyellow-position {
+    top: 2600px;
+  }
+}
+
+/* Mobile L */
+@media (min-width: 425px) {
+  .w-400 {
+    width: 400px;
+  }
+  .m0-425 {
+    margin: 0;
+  }
+}
+
+/* Universal */
+@media (min-width: 541px) {
+  .w-door {
+    height: 400px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .swgray-position {
+    top: 1500px;
+  }
+
+  .swwhite-position {
+    top: 2700px;
+  }
+
+  .swyellow-position {
+    top: 3900px;
+  }
+}
+
+/* Universal */
+@media (min-width: 992px) {
+  .logo {
+    display: inline;
+  }
+
+  .logo-mobile {
+    display: none;
+  }
+
+  .m-flgr {
+    flex-grow: 0;
+  }
+
+  .mar-nav {
+    margin: auto;
+  }
+
+  .m-jcs {
+    justify-content: center !important;
+  }
+
+  .sw-undertale {
+    width: 600px;
+  }
+
+  .swgray-position {
+    left: 0;
+    top: 3000px;
+  }
+
+  .swwhite-position {
+    right: 0;
+    top: 6000px;
+  }
+
+  .swyellow-position {
+    left: 0;
+    top: 9000px;
+  }
+
+  .scheda-md-undertale {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .top-mobile {
+    margin-top: 0;
+  }
+
+  .mtm {
+    margin-top: 180px;
+  }
+}
+
+/* Portatile */
+@media (min-width: 1024px) {
+  .sw-undertale {
+    width: 600px;
+  }
+
+  .swgray-position {
+    top: 2000px;
+  }
+
+  .swwhite-position {
+    top: 4000px;
+  }
+
+  .swyellow-position {
+    top: 6000px;
+  }
+}
+
+/* Portatile L */
+@media (min-width: 1440px) {
+  .w-door {
+    height: 400px;
+  }
+
+  .swgray-position {
+    top: 2500px;
+  }
+
+  .swwhite-position {
+    top: 5500px;
+  }
+
+  .swyellow-position {
+    top: 8500px;
+  }
+
+  .home-btn {
+    position: absolute;
+    left: 0;
+  }
+}
+
+/* 4K */
+@media (min-width: 2560px) {
+  .w-door {
+    height: 700px;
+  }
+
+  .sw-undertale {
+    width: 900px;
+  }
+
+  .swgray-position {
+    top: 3500px;
+  }
+
+  .swwhite-position {
+    top: 5500px;
+  }
+
+  .swyellow-position {
+    top: 7500px;
+  }
+}
+
+
+
+
+.logo {
+  height: 65px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.mar-nav {
+  padding: 10px;
+}
+
+.w0 {
+  width: max-content;
+}
+
+.m-flgr {
+  flex-grow: 0;
+}
+
+.red {
+  color: red;
+  margin-right: -10px;
+}
+
+.red-bg {
+  background-color: red !important;
+}
+
+.home-btn {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.home-btn:hover {
+  color: black;
+}
+
+.m-btn-ms {
+  margin-bottom: 10px
+}
+
+.m-btn-hover {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: all ease 0.3s;
+}
+
+.m-btn-hover:hover {
+  color: white !important;
+  background-color: #fc0000 !important;
+  border: 1px solid #fc0000;
+  font-family: 'Undertale';
+}
+
+.mmc {
+  width: max-content;
+}
+
+.hovertextnavbar a {
+  color: white !important;
+  transition: all ease .3s !important;
+}
+
+.hovertextnavbar a:hover {
+  color: gray !important;
+}
+
+.mio-anim {
+  transition: all ease .3s;
+}
+
+.card-hight {
+  width: 300px;
+}
+
+.card-hight-logo {
+  width: 70px;
+}
+
+.card-hight2 {
+  width: 300px;
+  height: 386px;
+}
+
+.m-offset {
+  scroll-margin-top: 150px;
+
+}
+
+.mt200 {
+  margin-top: 200px !important;
+}
+
+.title {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+  margin-bottom: 25px;
+}
+
+.title2 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+  margin-bottom: 25px;
+}
+
+.spec-mt {
+  margin-top: 30px;
+}
+
+.spec-mb {
+  margin-bottom: 30px;
+}
+
+.spec-mb-md {
+  margin-bottom: 20px;
+}
+
+.spec-mb-sm {
+  margin-bottom: 5px;
+}
+
+.spec-pt {
+  padding-top: 30px;
+}
+
+.spec-pb {
+  padding-bottom: 30px;
+}
+
+.mancante-spec {
+  margin-bottom: 5px;
+}
+
+.little {
+  font-size: 10px;
+}
+
+.divider {
+  border-bottom: 1px solid white;
+  opacity: 1;
+}
+
+.divider-b {
+  border-bottom: 1px solid black;
+  opacity: 1;
+}
+
+.plus-hover {
+  color: #2997ff !important;
+}
+
+.plus-hover:hover {
+  text-decoration: underline;
+}
+
+.arrow-right {
+  color: #2997ff;
+  font-size: 13px;
+}
+
+.icon-spec {
+  font-size: 18px;
+}
+
+.m-fs-punti {
+  font-size: 13px;
+  opacity: 0.55 !important;
+}
+
+.barra-hover {
+  border-bottom: 2px solid transparent;
+  transition: all ease 0.4s;
+}
+
+.barra-hover:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.under-text-padd {
+  padding-top: 100px;
+}
+
+.border-bot-white {
+  border-bottom: 1px solid #fff;
+}
+
+.max-content {
+  width: max-content;
+}
+
+.mega-padding {
+  padding-bottom: 300px;
+}
+
+.box-enorme {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  box-shadow: 0 40px 10px #000;
+}
+
+.unvisible {
+  opacity: 0%;
+  transition: all 3s ease;
+}
+
+.mine-cursor-pointer {
+  cursor: pointer;
+}
+
+.mine-cursor-default {
+  cursor: none;
+}
+
+.fsm-12 {
+  font-size: 12px;
+}
+
+.img-size-app img {
+  width: 50px;
+}
+
+/* page contatti */
+.map {
+  width: 600px;
+  height: 450px;
+  border: 0;
+}
+
+/* Page FAQ */
+.faq-mt {
+  margin-top: 50px;
+}
+
+.margin-text-faq {
+  margin-left: 135px !important;
+}
